@@ -57,7 +57,7 @@ class Navbar extends Component {
     };
     return (
       <nav>
-        <h1 style={h1Styles}>B95</h1>
+        <h1 style={h1Styles}>Bird95</h1>
         <span
           onMouseEnter={this.changeNav}
           onMouseLeave={this.changeNav}
@@ -67,8 +67,8 @@ class Navbar extends Component {
           {this.state.navState}
         </span>
         <div className="buttons">
-          <button>SIGN IN</button>
-          <button>SIGN UP</button>
+          <a>SIGN IN</a>
+          <a>SIGN UP</a>
         </div>
       </nav>
     );
